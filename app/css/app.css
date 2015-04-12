@@ -1,3 +1,7 @@
+html {
+	overflow-y: auto;
+}
+
 .message {
     color : white;
     background-color: #27ae60;
@@ -9,7 +13,8 @@ body {
 	background-color:#000;
 	color:#fff;
 	font-weight:300;
-	overflow-y: auto;
+	max-width:850px;
+	margin:0 auto;
 }
 
 p {
@@ -44,7 +49,7 @@ h3.subtext {
 
 
 .row-shim {
-	margin:12em 0;
+	margin:9em 0;
 }
 
 
